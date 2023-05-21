@@ -1,0 +1,57 @@
+----HTML Hyper Text Markup Language
+HTM bir programlama dili degil isaretleme dilidir.
+Kodlarimizi genelde < ile > arasinda yazacagiz. Buna Tag denir.
+Html komutlarina tag denir. <html>
+Bitis taglari <</>> ile belirtilir.
+<b>Merhaba</b> <p>Nasilsin</p>
+Void dedigimiz istisna tag’ler; <img>, <br> ve <hr> dir.
+Bir Html sayfasi olusturmak:
+En tepede <html> tag’I var. Bu tag’I acip kapatiriz.
+<html>
+<head>
+</head>
+<body>// Bu kisim client tarafindan gorulur.
+</body>
+Browser’da calisirken sadece body kismini gorecegiz. Client’in gorebilecegi herseyi body icine alacagiz.
+Yazdigimiz dosyanin html olup olmadigini nasil anlariz? .html uzantili ise bu dosya html dosyasidir.
+
+
+
+
+---Yazdigimiz dosyanin html olup olmadigini nasil anlariz? .html uzantili ise bu dosya html dosyasidir.
+<title>
+Head tagi icinde title bulunur. Bu yapi bize sayfanin neye ait oldugunu gosterir. w3schools.com’a girince en tepede baslik cubugunda w3school’a ait title’in yer aldigini gorduk. Html ile ilgili bilgilerimizi gelistirmek istersek bu site faydalidir.
+Masaustune geldik ve yeni bir klasor actik. Klasorumuz uzerine gelip diger secenekleri ac kisminda VSCode varsa onu tikliyoruz, ya da VSCode’u acip ekranini biraz kucultup, masaustundeki klasorumuzu secili halde VSCode’a tasiriz. Dosyaya guvenip guvenmedigimiz kismini onaylayinca VSCode’a sol basta HTML-Batch-151 kalsorumuzu goruruz.
+Chift+Alt+F yapinca VSCode ekranimizi duzenler
+Html-Batch-151 klasorumuz uzerine gelip day01 isimli yeni bir klasor olusturduk. day01 kalsorun uzerine gelip yeni bir dosya actik ve ismine .html ekleyerek onu html dosyasi yaptik.
+Yeni dosya actiktan ve html yapisini olusturduktan sonra ekranda sagi tiklayinca open with live server’a tiklayinca yazdiklarimizin title’I ile birlikte bir sayfada yazildigini gorduk.
+Daha sonra yine day01 klasoru uzerinden ikinci bir html dosyasi olusturduk ve orada sadece ! unlem isaretini yazip enter yapinca asagidaki kod otomatik olarak yazildi.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+Title kismina gelip iki title tag’I arasina Bicimlendirme Taglari yazdik. Body arasinda kodlarimizi yazmaya basladik.
+
+P taginin gorevi yazilari paragraph haline getirir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
